@@ -1,0 +1,140 @@
+/* Styles for website */
+/* header styles */
+header {
+    z-index: 9999;
+    padding: 20px 35px;
+    background-image: url("./images/pexels-david-mcbee-1546168.jpeg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+  
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: black;
+    text-shadow: 0 0 10px white;
+}
+
+header p {
+    font-weight: bold;
+    margin: 0;
+    font-size: 20px;
+    color: black;
+    text-shadow: 0 0 10px white;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+  
+header nav {
+    margin: 7px 0;
+}
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+  
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px white;
+}
+  
+header nav ul li a:hover {
+    background: white;
+    border-radius: 5px;
+    text-shadow: none;
+}
+
+/*  hero styles */
+.hero {
+    background-image: url("./images/pexels-david-mcbee-1546168.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 20px 20px;
+}
+
+.city-map {
+    justify-content: left;
+    padding-left: 10px;
+    text-shadow: 0 0 10px white;
+}
+
+label {
+    font-weight: bold;
+    text-shadow: 0 0 10px white;
+    font-size:20px;
+}
+
+.hero form {
+    border: 3px solid green;
+    background-color: rgb(252, 225, 56, 0.8);
+    padding: 18px;
+    color: var(--secondary-color);
+    width: 100%;
+    margin: 3.5%;
+    box-shadow: 0 0 10px white;
+    border-radius: 8px;
+    
+}
+
+.hero h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 30px;
+    color: black;
+    text-shadow: 0 0 10px white;
+}
+
+/* property-details styles */
+#property-details {
+    background-color: lightyellow;
+    margin: 0;
+    padding: 18px;
+}
+
+#property-details h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration-line: underline;
+    color: black;
+    text-shadow: 5px 5px 5px white;
+    text-align: center;
+}
+
+    
+
+/* Media queries */
+@media only screen and (max-width: 992px) {
+    #search-city{
+        width:100%;
+    }
+    #search-button{
+        width:100%;
+    }
+}
+@media only screen and (max-width: 575px) {
+
+    #property{
+        justify-content: center;
+    }
+}
