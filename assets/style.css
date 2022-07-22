@@ -9,7 +9,6 @@ header {
     background-attachment: fixed;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -66,61 +65,10 @@ header nav ul li a:hover {
     background-image: url("./images/istockphoto-1317282043-170667a.jpeg");
     background-size: cover;
     background-attachment: fixed;
-    background-position: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    padding: 20px 20px;
+    background-position: 100%;
 }
 
-.city-map {
-    justify-content: left;
-    padding-left: 10px;
-    text-shadow: 0 0 10px white;
-}
-
-label {
-    font-weight: bold;
-    text-shadow: 0 0 10px white;
-    font-size:20px;
-}
-
-.hero form {
-    border: 3px solid green;
-    background-color: rgb(252, 225, 56, 0.8);
-    padding: 18px;
-    color: var(--secondary-color);
-    width: 100%;
-    margin: 3.5%;
-    box-shadow: 0 0 10px white;
-    border-radius: 8px;
-    
-}
-
-.hero h1 {
-    font-weight: bold;
-    margin: 0;
-    font-size: 30px;
-    color: black;
-    text-shadow: 0 0 10px white;
-}
-
-/* property-details styles */
-#property-details {
-    background-color: lightyellow;
-    margin: 0;
-    padding: 18px;
-}
-
-#property-details h1 {
-    font-weight: bold;
-    font-size: 30px;
-    text-decoration-line: underline;
-    color: black;
-    text-shadow: 5px 5px 5px white;
-    text-align: center;
-}
-
+.row
     
 
 /* Media queries */
