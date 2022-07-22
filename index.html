@@ -16,47 +16,37 @@
         <!--begin Header/Nav-->
         <header>
             <div class="flex container">
-                <h1>Real Estate Search</h1>
-                <p>Here to help you find real estate that is best for you!</p>
+                <h1>Meal Time Roulette</h1>
+                <p>Lets play a game of change for meal time madness!</p>
             </div>
             <nav>
                 <ul id="nav-menu">
-                    <li><a href="#home" class="active">Home</a></li>
-                    <li><a href="#saved-properties">Saved Properties</a></li>
-                    <li><a href="#city-data">City Data</a></li>
-                    <li><a href="#favorites">Favorites</a></li>
+                    <li><a href="#saved-meals">Saved Meals</a></li>
+                    <li><a href="#saved-drinks">City Data</a></li>
                 </ul>
             </nav>
         </header>
         <!--end header/nav-->
 
         <section class="hero">
-            <!--city map API left of page-->
-            <div class="city-map">
-                <h1>Select your city</h1>
-             <!--left hand city form, input city to search-->
-                <form>
-                    <label for="search-city">Search:</label>
-                    <div class="form-row">
-                        <input id="search-city" class="form-control" name="city" value="Orlando"></input>
-                        <!-- font-awesome magnifying glass -->
-                        <button id="search-button" class="btn btn-primary" type="submit"><i class="fas fa-search"></i></button>
-                    </div>
-                </form>
-                <div id="search-error">
-                <!-- list of prior searched cities -->
-                <ul id="city-results" class="list-group mt-4"></ul>
-                <!-- clear storage button -->
-                <a id="clear-storage" href="#"></a>    
+
+            <div class="container">
+                <div class="row text-center">
+                    <h2>Get a random meal by clicking below
+                    <button class="button-primary" id="get-meal">Get a Meal Recipe</button>
+                </div>
+                <div id="meal" class="row meal"></div>
             </div>
-            
+
+            <div class="container">
+                <div class="row text-center">
+                    <h2>Get a random drink by clicking below
+                    <button class="button-primary" id="get-drink">Get a Drink Recipe</button>
+                </div>
+                <div id="drink" class="row drink"></div>
+            </div> 
         </section>
 
-        <!--mls API list center of page below select your city-->
-        <div id="property-details" class="row col-md-9">
-            <h1>MLS Listings</h1>
-            
-        </div>
 
         <footer>
             <h3>&copy 2022 by Persistent-Pirates, UCF Coding Boot Camp</h3>
