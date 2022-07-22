@@ -4,10 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Meal-Time Roulette</title>
+    <title>Real Estate Near Me</title>
     <link href="./assets/style.css" type="text/css" rel="stylesheet" />
     <script scr="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.4/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/df87f724a0.js" crossorigin="anonymous"></script>
+    <!--Bulma CSS CDN-->
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
      
 </head>
 
@@ -15,50 +17,57 @@
     <main>
         <!--begin Header/Nav-->
         <header>
-            <div class="flex container">
+            <div class="flex-container">
                 <h1>Meal Time Roulette</h1>
-                <p>Lets play a game of change for meal time madness!</p>
+                <p>Take a chance and spin for a random meal and/or drink recipe!</p>
+                <hr>
             </div>
+
             <nav>
                 <ul id="nav-menu">
-                    <li><a href="#saved-meals">Saved Meals</a></li>
-                    <li><a href="#saved-drinks">City Data</a></li>
+                    <li><a href="#saved-meals">Saved Meal Recipes</a></li>
+                    <li><a href="#saved-drinks">Saved Drink Recipes</a></li>
                 </ul>
             </nav>
         </header>
         <!--end header/nav-->
 
         <section class="hero">
-
-            <div class="container">
-                <div class="row text-center">
-                    <h2>Get a random meal by clicking below
-                    <button class="button-primary" id="get-meal">Get a Meal Recipe</button>
+            
+            <!--recipe container 2 column format-->
+            <div class="columns">
+                
+    <!--Drink Column-->
+                <div class="column" id="meals-column">
+                  <!-- Column 1: Meal Recipes -->
+                  <h2 id="meal-title">Spin For Your Random Meal</h2>
+                  <hr>
+                <button id="start-btn">Start Meal Search</button>
+                <div id="meal-button" class="card-body"></div>
+                <button onclick="clearButtons()">Clear Search</button>
+                <!-- INSERT IN JS AND REMOVE THIS NOTE FROM HTML -- function clearButtons (){
+                document.getElementById('meal-button').innerHTML = "";}-->
                 </div>
-                <div id="meal" class="row meal"></div>
-            </div>
-
-            <div class="container">
-                <div class="row text-center">
-                    <h2>Get a random drink by clicking below
-                    <button class="button-primary" id="get-drink">Get a Drink Recipe</button>
-                </div>
-                <div id="drink" class="row drink"></div>
-            </div> 
+                
+    <!--Drinks Column-->            
+                <div class="column" id="drinks-column">
+                  <!--Column 2: Drink Recipes -->
+                  <h2 id="drink-title">Spin For Your Random Drink</h2>
+                  <hr>
+                <button id="start-btn">Start Drink Search</button>
+                <div id="drink-button" class="card-body"></div>
+                <!-- INSERT IN JS AND REMOVE THIS NOTE FROM HTML -- function clearButtons (){
+                document.getElementById('drink-button').innerHTML = "";}-->
+                <button onclick="clearButtons()">Clear Search</button>
+               </div>
+            
         </section>
-
 
         <footer>
             <h3>&copy 2022 by Persistent-Pirates, UCF Coding Boot Camp</h3>
         </footer>
 
-    </main>
-
-     
-
-
-    
-    
+    </main>  
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
