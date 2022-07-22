@@ -3,7 +3,7 @@
 header {
     z-index: 9999;
     padding: 20px 35px;
-    background-image: url("./images/pexels-david-mcbee-1546168.jpeg");
+    background-image: url("./images/istockphoto-1317282043-170667a.jpeg");
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
@@ -63,7 +63,7 @@ header nav ul li a:hover {
 
 /*  hero styles */
 .hero {
-    background-image: url("./images/pexels-david-mcbee-1546168.jpeg");
+    background-image: url("./images/istockphoto-1317282043-170667a.jpeg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
