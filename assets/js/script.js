@@ -90,6 +90,7 @@ var getRandomMeal = function() {
             }
             
             mealEl.innerHTML = html;
+            mealEl.classList.remove("hidden");
         })
         .catch(err => console.error(err));
 }
@@ -158,16 +159,19 @@ var getRandomDrink = function() {
             }
 
             drinkEl.innerHTML = html;
+            drinkEl.classList.remove("hidden");
         })
         .catch(err => console.error(err));
 }
 
 var resetMeal = function() {
-    mealEl.remove();
+   //mealEl.remove();
+   mealEl.classList.add("hidden");
 };
 
 var resetDrink = function() {
-    drinkEl.remove();
+    //drinkEl.remove();
+    drinkEl.classList.add("hidden");
 };
 
 drinkBtn.addEventListener("click", getRandomDrink);

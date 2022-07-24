@@ -1,5 +1,5 @@
-/* Styles for website */
-/* header styles */
+/* Styles for website /
+/ header styles */
 body {
     background-color: rgb(244, 239, 211);
     position:absolute; 
@@ -15,7 +15,7 @@ hr {
 }
 
 header {
-    
+
     background-image: url("./images/wineandcheese.jpeg");
     height: 300px;
     background-size: cover;
@@ -31,7 +31,7 @@ header {
     text-align: center;
     padding-top: 50px;
 }
-  
+
 header h1 {
     font-weight: bold;
     margin: 0;
@@ -53,27 +53,28 @@ header a {
     text-decoration: none;
     color: hwb(0 100% 0%);
 }
-  
+
 header nav {
     margin: 7px 0;
 }
-  
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
+    padding: 0 60px 0 60px;
 }
-  
+
 header nav ul li a {
     padding: 10px 15px;
     font-weight: bold;
     font-size: 1.55vw;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-    
+
 }
-  
+
 header nav ul li a:hover {
     background: white;
     border-radius: 5px;
@@ -82,7 +83,6 @@ header nav ul li a:hover {
 
 /*  hero styles */
 
-
 .columns {
     Width: 100%;
     display: flex;
@@ -90,20 +90,25 @@ header nav ul li a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    
-    
+
+
 }
-    
+
 .column {
+    /*added some styles to center text*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width:100%;
     flex: 50%;
     margin-left: 10px; 
 }
 
 .columns h2 {
-    
+
     font-weight: bold;
     font-size: 1.55vw;
+    text-align: center;
 }
 
 .columns hr {
@@ -114,35 +119,36 @@ footer {
     margin: 20px 20px 20px 20px;
 } 
 
-
-
-
-/*video wrapper for available videos after search */
+/*video wrapper for available videos after search*/
 
 .videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 25px;
-	height: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
 }
 
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hidden {
+    display: none;
 }
 
 /*media queries*/
 
 @media (min-width: 48em) {
-      
+
 .column {
     width: 50%;
     float:left;
 }
-      
+
 .columns {
     content: "";
     display: table;
