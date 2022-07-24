@@ -1,4 +1,4 @@
-#Real Estate Locator
+#Meal Time Roulette
 ## Group Project 1 - UCF coding (to be added to README.md file)
 
 # Developers:
@@ -17,10 +17,10 @@ Persistant Pirates on Discord for team meetups outside of class.
 # Project Lead:
 Andrea Jared
 # Project Proposal:
-A. City Real Estate Application.  The application will show property for sale and property sold near you.  We will be using two API’s for the project.  
-B. Problem:  client is in any new area looking for real estate options.  
-C. Solve:  client uses application to use current location to research properties for sale and recent properties sold (to show property values in the area).
-D. Target audience is any person wanting to invest in real estate in a certain area or any person researching real estate in a certain area. 
+A. Random receipe generator.  Make a application to rendomly generate a meal recipe and random drink recipe.  We will be using two API’s for the project.  
+B. Problem:  client want ideas for dinner recipe and drink recipe and wants to chance it with a random selector.  
+C. Solve:  client uses application to randomly genrate meal and drink recipes, print or save to favorites.
+D. Target audience is any person who is interested in cooking and or drinking alcohol. 
 
 # WireFrames/Mock-up/Sketches of your application layout.
 * Completed and posted separately.  The wireframe will have changes as we further discuss our page functionality. 
@@ -38,6 +38,5 @@ D. Target audience is any person wanting to invest in real estate in a certain a
 
 # API'S:
 
-** Google Places API https://developers.google.com/maps/documentation/places/web-service/overview
-** Real Estate Property MLS API
-    Research document on Realtor.com API TBD
+** Drinks randomizer API - https://www.thecocktaildb.com/ 
+** Meal randomizer API - https://www.themealdb.com/
