@@ -24,6 +24,7 @@ header {
     color: white;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -80,14 +81,18 @@ header nav ul li a:hover {
 }
 
 /*  hero styles */
-.hero {
-    background-image: url("./images/istockphoto-1317282043-170667a.jpeg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 100%;
-}
 
-.row
+
+.columns {
+    Width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    
+}
     
 .column {
     width:100%;
