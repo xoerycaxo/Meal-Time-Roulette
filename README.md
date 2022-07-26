@@ -1,5 +1,6 @@
 #Meal Time Roulette
 ## Group Project 1 - UCF coding
+
 # Developers:
 * Amir Rezvani - https://ucfvirtbofsfp-ybx2807.slack.com/team/U03JD9D06RJ
 * Andra Jared - https://ucfvirtbofsfp-ybx2807.slack.com/team/U03K1FQB01X
@@ -8,6 +9,7 @@
 * Kasey Crocker - https://ucfvirtbofsfp-ybx2807.slack.com/team/U03JG86TN3Y
 * Lindsay Libhart - https://ucfvirtbofsfp-ybx2807.slack.com/team/U03HV2JEYUC
 # Group Contact:
+Group GitHub Repository:  https://github.com/xoerycaxo/Real-estate-projectGroup
 Group GitHub Repository:  https://github.com/xoerycaxo/Meal-Time-Roulette
 Slack: https://ucfvirtbofsfp-ybx2807.slack.com/archives/C03P62UJ4JK
 Persistant Pirates on Discord for team meetups outside of class. 
