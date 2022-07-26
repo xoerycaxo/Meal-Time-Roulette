@@ -1,5 +1,5 @@
-#Real Estate Locator
-## Group Project 1 - UCF coding (to be added to README.md file)
+#Meal Time Roulette
+## Group Project 1 - UCF coding
 
 # Developers:
 * Amir Rezvani - https://ucfvirtbofsfp-ybx2807.slack.com/team/U03JD9D06RJ
@@ -10,6 +10,7 @@
 * Lindsay Libhart - https://ucfvirtbofsfp-ybx2807.slack.com/team/U03HV2JEYUC
 
 # Group Contact:
+Group GitHub Repository:  https://github.com/xoerycaxo/Real-estate-projectGroup
 Group GitHub Repository:  https://github.com/xoerycaxo/Meal-Time-Roulette
 Slack: https://ucfvirtbofsfp-ybx2807.slack.com/archives/C03P62UJ4JK
 Persistant Pirates on Discord for team meetups outside of class. 
@@ -17,15 +18,13 @@ Persistant Pirates on Discord for team meetups outside of class.
 # Project Lead:
 Andrea Jared
 # Project Proposal:
-A. City Real Estate Application.  The application will show property for sale and property sold near you.  We will be using two API’s for the project.  
-B. Problem:  client is in any new area looking for real estate options.  
-C. Solve:  client uses application to use current location to research properties for sale and recent properties sold (to show property values in the area).
-D. Target audience is any person wanting to invest in real estate in a certain area or any person researching real estate in a certain area. 
-
+A. Random receipe generator.  Make a application to rendomly generate a meal recipe and random drink recipe.  We will be using two API’s for the project.  
+B. Problem:  client want ideas for dinner recipe and drink recipe and wants to chance it with a random selector.  
+C. Solve:  client uses application to randomly genrate meal and drink recipes, print or save to favorites.
+D. Target audience is any person who is interested in cooking and or drinking alcohol. 
 # WireFrames/Mock-up/Sketches of your application layout.
 * Completed and posted separately.  The wireframe will have changes as we further discuss our page functionality. 
 * Our wireframe shows the navigation that we will work on.  
-
 # Developer’s Roles:
 * Amir Rezvani -      Wireframe design development (pre-game). 
                     JavaScript and API implementation. proof reading and debugging
@@ -35,9 +34,6 @@ D. Target audience is any person wanting to invest in real estate in a certain a
 * Gonzalo Rodriquez - JavaScript API research and implementation proof reader/debugging.
 * Kasey Crocker -     JavaScript API research and implementation proof reader/debugging.
 * Lindsay Libhart -   HTML and CSS code and proof reading/debugging
-
 # API'S:
-
-** Google Places API https://developers.google.com/maps/documentation/places/web-service/overview
-** Real Estate Property MLS API
-    Research document on Realtor.com API TBD
+** Drinks randomizer API - https://www.thecocktaildb.com/ 
+** Meal randomizer API - https://www.themealdb.com/
