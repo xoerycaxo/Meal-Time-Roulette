@@ -8,13 +8,11 @@
 * Gonzalo Rodriquez - https://ucfvirtbofsfp-ybx2807.slack.com/team/U03JAEFSQM8
 * Kasey Crocker - https://ucfvirtbofsfp-ybx2807.slack.com/team/U03JG86TN3Y
 * Lindsay Libhart - https://ucfvirtbofsfp-ybx2807.slack.com/team/U03HV2JEYUC
-
 # Group Contact:
 Group GitHub Repository:  https://github.com/xoerycaxo/Real-estate-projectGroup
 Group GitHub Repository:  https://github.com/xoerycaxo/Meal-Time-Roulette
 Slack: https://ucfvirtbofsfp-ybx2807.slack.com/archives/C03P62UJ4JK
 Persistant Pirates on Discord for team meetups outside of class. 
-
 # Project Lead:
 Andrea Jared
 # Project Proposal:
@@ -27,9 +25,9 @@ D. Target audience is any person who is interested in cooking and or drinking al
 * Our wireframe shows the navigation that we will work on.  
 # Developer’s Roles:
 * Amir Rezvani -      Wireframe design development (pre-game). 
-                    JavaScript and API implementation. proof reading and debugging
+                      JavaScript and API implementation. proof reading and debugging
 * Andra Jared -       Team Lead.
-                    JavaScript and API implementation. 
+                      JavaScript and API implementation. 
 * Eryca Spence -      GitHub Repository management and team setup.  Branch    Development. and User Story and Acceptance Criteria.
 * Gonzalo Rodriquez - JavaScript API research and implementation proof reader/debugging.
 * Kasey Crocker -     JavaScript API research and implementation proof reader/debugging.
