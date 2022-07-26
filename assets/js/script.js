@@ -98,17 +98,111 @@ var getRandomMeal = function() {
 var getRandomDrink = function() {
     var drinkUrl = 'https://www.thecocktaildb.com/api/json/v1/1/random.php';
 
+
     fetch(drinkUrl)
         .then(response => response.json())
         .then(data => {
             let html = "";
             if(data.drinks){
                 data.drinks.forEach(drink => {
+
+                    if(drink.strMeasure1 === null){
+                        drink.strMeasure1 = "";
+                    };
+                    if(drink.strMeasure2 === null){
+                        drink.strMeasure2 = "";
+                    };
+                    if(drink.strMeasure3 === null){
+                        drink.strMeasure3 = "";
+                    };
+                    if(drink.strMeasure4 === null){
+                        drink.strMeasure4 = "";
+                    };
+                    if(drink.strMeasure5 === null){
+                        drink.strMeasure5 = "";
+                    };
+                    if(drink.strMeasure6 === null){
+                        drink.strMeasure6 = "";
+                    };
+                    if(drink.strMeasure7 === null){
+                        drink.strMeasure7 = "";
+                    };
+                    if(drink.strMeasure8 === null){
+                        drink.strMeasure8 = "";
+                    };
+                    if(drink.strMeasure9 === null){
+                        drink.strMeasure9 = "";
+                    };
+                    if(drink.strMeasure10 === null){
+                        drink.strMeasure10 = "";
+                    };
+                    if(drink.strMeasure11 === null){
+                        drink.strMeasure11 = "";
+                    };
+                    if(drink.strMeasure12 === null){
+                        drink.strMeasure12 = "";
+                    };
+                    if(drink.strMeasure13 === null){
+                        drink.strMeasure13 = "";
+                    };
+                    if(drink.strMeasure14 === null){
+                        drink.strMeasure14 = "";
+                    };
+                    if(drink.strMeasure15 === null){
+                        drink.strMeasure15 = "";
+                    };    
+                    if(drink.strIngredient1 === null){
+                        drink.strIngredient1 = "";
+                    };
+                    if(drink.strIngredient2=== null){
+                        drink.strIngredient2 = "";
+                    };
+                    if(drink.strIngredient3=== null){
+                        drink.strIngredient3 = "";
+                    };
+                    if(drink.strIngredient4=== null){
+                        drink.strIngredient4 = "";
+                    };
+                    if(drink.strIngredient5=== null){
+                        drink.strIngredient5 = "";
+                    };
+                    if(drink.strIngredient6=== null){
+                        drink.strIngredient6 = "";
+                    };
+                    if(drink.strIngredient7=== null){
+                        drink.strIngredient7 = "";
+                    };
+                    if(drink.strIngredient8=== null){
+                        drink.strIngredient8 = "";
+                    };
+                    if(drink.strIngredient9=== null){
+                        drink.strIngredient9 = "";
+                     };
+                    if(drink.strIngredient10 === null){
+                        drink.strIngredient10 = "";
+                    };
+                    if(drink.strIngredient11 === null){
+                        drink.strIngredient11 = "";
+                    };
+                    if(drink.strIngredient12 === null){
+                        drink.strIngredient12 = "";
+                    };
+                    if(drink.strIngredient13 === null){
+                        drink.strIngredient13 = "";
+                    };
+                    if(drink.strIngredient14 === null){
+                        drink.strIngredient14 = "";
+                    };
+                    if(drink.strIngredient15 === null){
+                        drink.strIngredient15 = "";
+                    };
+
                     html += `
                     <img src = "${drink.strDrinkThumb}" alt = "drink">
                     <h2>${drink.strDrink}</h2>
                     <h3>Ingredients</h3>
                     <ul id="meal-ingredients">
+                    <scrpit> 
                         <li>${drink.strIngredient1}</li>
                         <li>${drink.strIngredient2}</li>
                         <li>${drink.strIngredient3}</li>
@@ -144,7 +238,7 @@ var getRandomDrink = function() {
                         <li>${drink.strMeasure14}</li>
                     </ul>
 
-                    <h3>Type of Glass</h3>
+                    <h3>Type of Glass:</h3>
                     <p>${drink.strGlass}</p>
 
                     <div id="instructions">
@@ -154,6 +248,9 @@ var getRandomDrink = function() {
 
 
                     `;console.log(drink);
+                    
+
+
 
                 });
             }
