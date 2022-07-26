@@ -12,7 +12,11 @@
 
 # Group Contact:
 
+
 Group GitHub Repository:  https://github.com/xoerycaxo/Meal-Time-Roulette
+
+Group GitHub Repository:  https://github.com/xoerycaxo/Meal-Time-Roulette
+Slack: https://ucfvirtbofsfp-ybx2807.slack.com/archives/C03P62UJ4JK
 
 Persistant Pirates on Discord for team meetups outside of class. 
 
