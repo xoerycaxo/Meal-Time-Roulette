@@ -2,7 +2,6 @@
 var mealBtn = document.getElementById("meal-btn");
 var mealEl = document.getElementById("meal");
 var clearMeal = document.getElementById("clear-meal");
-var mealContainer = document.getElementById("meal-container");
 
 var drinkBtn = document.getElementById("drink-btn");
 var drinkEl = document.getElementById("drink");
