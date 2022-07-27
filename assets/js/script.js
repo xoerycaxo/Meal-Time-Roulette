@@ -2,7 +2,6 @@
 var mealBtn = document.getElementById("meal-btn");
 var mealEl = document.getElementById("meal");
 var clearMeal = document.getElementById("clear-meal");
-var mealContainer = document.getElementById("meal-container");
 
 var drinkBtn = document.getElementById("drink-btn");
 var drinkEl = document.getElementById("drink");
@@ -18,6 +17,128 @@ var getRandomMeal = function() {
             let html = "";
             if(data.meals){
                 data.meals.forEach(meal => {
+
+                    if(meal.strMeasure1 === null){
+                        meal.strMeasure1 = "";
+                    };
+                    if(meal.strMeasure2 === null){
+                        meal.strMeasure2 = "";
+                    };
+                    if(meal.strMeasure3 === null){
+                        meal.strMeasure3 = "";
+                    };
+                    if(meal.strMeasure4 === null){
+                        meal.strMeasure4 = "";
+                    };
+                    if(meal.strMeasure5 === null){
+                        meal.strMeasure5 = "";
+                    };
+                    if(meal.strMeasure6 === null){
+                        meal.strMeasure6 = "";
+                    };
+                    if(meal.strMeasure7 === null){
+                        meal.strMeasure7 = "";
+                    };
+                    if(meal.strMeasure8 === null){
+                        meal.strMeasure8 = "";
+                    };
+                    if(meal.strMeasure9 === null){
+                        meal.strMeasure9 = "";
+                    };
+                    if(meal.strMeasure10 === null){
+                        meal.strMeasure10 = "";
+                    };
+                    if(meal.strMeasure11 === null){
+                        meal.strMeasure11 = "";
+                    };
+                    if(meal.strMeasure12 === null){
+                        meal.strMeasure12 = "";
+                    };
+                    if(meal.strMeasure13 === null){
+                        meal.strMeasure13 = "";
+                    };
+                    if(meal.strMeasure14 === null){
+                        meal.strMeasure14 = "";
+                    };
+                    if(meal.strMeasure15 === null){
+                        meal.strMeasure15 = "";
+                    }; 
+                    if(meal.strMeasure16 === null){
+                        meal.strMeasure16 = "";
+                    };
+                    if(meal.strMeasure17 === null){
+                        meal.strMeasure17 = "";
+                    };
+                    if(meal.strMeasure18 === null){
+                        meal.strMeasure18 = "";
+                    };
+                    if(meal.strMeasure19 === null){
+                        meal.strMeasure19 = "";
+                    };
+                    if(meal.strMeasure20 === null){
+                        meal.strMeasure20 = "";
+                    };
+                    if(meal.strIngredient1 === null){
+                        meal.strIngredient1 = "";
+                    };
+                    if(meal.strIngredient2=== null){
+                        meal.strIngredient2 = "";
+                    };
+                    if(meal.strIngredient3=== null){
+                        meal.strIngredient3 = "";
+                    };
+                    if(meal.strIngredient4=== null){
+                        meal.strIngredient4 = "";
+                    };
+                    if(meal.strIngredient5=== null){
+                        meal.strIngredient5 = "";
+                    };
+                    if(meal.strIngredient6=== null){
+                        meal.strIngredient6 = "";
+                    };
+                    if(meal.strIngredient7=== null){
+                        meal.strIngredient7 = "";
+                    };
+                    if(meal.strIngredient8=== null){
+                        meal.strIngredient8 = "";
+                    };
+                    if(meal.strIngredient9=== null){
+                        meal.strIngredient9 = "";
+                     };
+                    if(meal.strIngredient10 === null){
+                        meal.strIngredient10 = "";
+                    };
+                    if(meal.strIngredient11 === null){
+                        meal.strIngredient11 = "";
+                    };
+                    if(meal.strIngredient12 === null){
+                        meal.strIngredient12 = "";
+                    };
+                    if(meal.strIngredient13 === null){
+                        meal.strIngredient13 = "";
+                    };
+                    if(meal.strIngredient14 === null){
+                        meal.strIngredient14 = "";
+                    };
+                    if(meal.strIngredient15 === null){
+                        meal.strIngredient15 = "";
+                    };
+                    if(meal.strIngredient16 === null){
+                        meal.strIngredient16 = "";
+                    };
+                    if(meal.strIngredient17 === null){
+                        meal.strIngredient17 = "";
+                    };
+                    if(meal.strIngredient18 === null){
+                        meal.strIngredient18 = "";
+                    };
+                    if(meal.strIngredient19 === null){
+                        meal.strIngredient19 = "";
+                    };
+                    if(meal.strIngredient20 === null){
+                        meal.strIngredient20 = "";
+                    };
+
                     html += `
                     <img src = "${meal.strMealThumb}" alt = "food">
                     <h2>${meal.strMeal}</h2>
