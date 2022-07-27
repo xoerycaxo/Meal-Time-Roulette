@@ -207,6 +207,7 @@ var getRandomMeal = function() {
                     <p>Source:${meal.strSource}</p>
                     `;
                     console.log(meal);
+                    window.localStorage.setItem('meals', JSON.stringify(meal));
                 });
             }
             
