@@ -109,7 +109,11 @@ header nav ul li a:hover {
 }
 
 footer {
+<<<<<<< HEAD
     position: relative;
+=======
+    position: float;
+>>>>>>> eebef545064a54a129ff44d9365306a7e401725e
     bottom: 0;
     padding: 0;
     width: 100%;
@@ -156,3 +160,4 @@ footer {
     clear: both;
 }
 }
+
