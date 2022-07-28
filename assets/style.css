@@ -109,7 +109,7 @@ header nav ul li a:hover {
 }
 
 footer {
-    background-image: url(/assets/images/map2.jpg);
+    background-image: url("/assets/images/map2.jpg");
     position: scroll;
     bottom: 0;
     padding: 0;
