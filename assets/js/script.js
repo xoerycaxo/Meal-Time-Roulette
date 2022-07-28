@@ -192,7 +192,7 @@ var getRandomMeal = function() {
 
 
                     <div id="instructions">
-                        <h3>Instructions</h3>
+                        <h3>Instructions:</h3>
                         <p>${meal.strInstructions}</p>
                     </div>
 
@@ -207,6 +207,7 @@ var getRandomMeal = function() {
                     <p>Source:${meal.strSource}</p>
                     `;
                     console.log(meal);
+                    window.localStorage.setItem('meals', JSON.stringify(meal));
                 });
             }
             
@@ -321,58 +322,37 @@ var getRandomDrink = function() {
                     html += `
                     <img src = "${drink.strDrinkThumb}" alt = "drink">
                     <h2>${drink.strDrink}</h2>
-                    <h3>Ingredients</h3>
+                    <h3>Ingredients:</h3>
                     <ul id="meal-ingredients">
-                    <scrpit> 
-                        <li>${drink.strIngredient1}</li>
-                        <li>${drink.strIngredient2}</li>
-                        <li>${drink.strIngredient3}</li>
-                        <li>${drink.strIngredient4}</li>
-                        <li>${drink.strIngredient5}</li>
-                        <li>${drink.strIngredient6}</li>
-                        <li>${drink.strIngredient7}</li>
-                        <li>${drink.strIngredient8}</li>
-                        <li>${drink.strIngredient9}</li>
-                        <li>${drink.strIngredient10}</li>
-                        <li>${drink.strIngredient11}</li>
-                        <li>${drink.strIngredient12}</li>
-                        <li>${drink.strIngredient13}</li>
-                        <li>${drink.strIngredient14}</li>
-                        <li>${drink.strIngredient15}</li>
-                    </ul>
-
-                    <h3>Measurements:</h3>
-                    <ul id="meal-measurements">
-                        <li>${drink.strMeasure1}</li>
-                        <li>${drink.strMeasure2}</li>
-                        <li>${drink.strMeasure3}</li>
-                        <li>${drink.strMeasure4}</li>
-                        <li>${drink.strMeasure5}</li>
-                        <li>${drink.strMeasure6}</li>
-                        <li>${drink.strMeasure7}</li>
-                        <li>${drink.strMeasure8}</li>
-                        <li>${drink.strMeasure9}</li>
-                        <li>${drink.strMeasure10}</li>
-                        <li>${drink.strMeasure11}</li>
-                        <li>${drink.strMeasure12}</li>
-                        <li>${drink.strMeasure13}</li>
-                        <li>${drink.strMeasure14}</li>
+                        <li>${drink.strMeasure1} ${drink.strIngredient1}</li>
+                        <li>${drink.strMeasure2} ${drink.strIngredient2}</li>
+                        <li>${drink.strMeasure3} ${drink.strIngredient3}</li>
+                        <li>${drink.strMeasure4} ${drink.strIngredient4}</li>
+                        <li>${drink.strMeasure5} ${drink.strIngredient5}</li>
+                        <li>${drink.strMeasure6} ${drink.strIngredient6}</li>
+                        <li>${drink.strMeasure7} ${drink.strIngredient7}</li>
+                        <li>${drink.strMeasure8} ${drink.strIngredient8}</li>
+                        <li>${drink.strMeasure9} ${drink.strIngredient9}</li>
+                        <li>${drink.strMeasure10} ${drink.strIngredient10}</li>
+                        <li>${drink.strMeasure11} ${drink.strIngredient11}</li>
+                        <li>${drink.strMeasure12} ${drink.strIngredient12}</li>
+                        <li>${drink.strMeasure12} ${drink.strIngredient13}</li>
+                        <li>${drink.strMeasure12} ${drink.strIngredient14}</li>
+                        <li>${drink.strMeasure12} ${drink.strIngredient15}</li>
                     </ul>
 
                     <h3>Type of Glass:</h3>
                     <p>${drink.strGlass}</p>
 
                     <div id="instructions">
-                        <h3>Instructions</h3>
+                        <h3>Instructions:</h3>
                         <p>${drink.strInstructions}</p>
                     </div>
 
 
-                    `;console.log(drink);
-                    
-
-
-
+                    `;
+                    console.log(drink);
+                    window.localStorage.setItem('drinks', JSON.stringify(drink));
                 });
             }
 
@@ -396,3 +376,4 @@ drinkBtn.addEventListener("click", getRandomDrink);
 mealBtn.addEventListener("click", getRandomMeal);
 clearMeal.addEventListener("click", resetMeal);
 clearDrink.addEventListener("click", resetDrink);
+
