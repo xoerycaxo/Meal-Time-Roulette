@@ -115,6 +115,10 @@ footer {
     width: 100%;
 } 
 
+.hidden{
+    display: none;
+}
+
 .bulma-control-mixin {
     @include control;
     background: rgba(91, 1, 49, 0.952);
