@@ -21,13 +21,13 @@ C. Solve:  client uses application to randomly generate meal and drink recipes, 
 D. Target audience is any person who is interested in cooking and or drinking alcohol. 
 # Technologies
 This project was created with:
-Bootstrap 4.0
-HTML:5
-CSS
-Font Awesome
-JavaScript:3.6
-jquery
-Bulma 
+Bootstrap 4.0,
+HTML:5,
+CSS,
+Font Awesome,
+JavaScript:3.6,
+jquery,
+Bulma. 
 # WireFrames/Mock-up/Sketches of your application layout.
 * Completed and posted separately in Slack during project.  The wireframe will have changes as we further discuss our page functionality.   
 # Developer’s Roles:
