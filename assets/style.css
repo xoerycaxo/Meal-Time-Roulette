@@ -23,8 +23,8 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
+    position: float;
+    position: float;
     top: 0;
     text-align: center;
     padding-top: 50px;
@@ -109,7 +109,7 @@ header nav ul li a:hover {
 }
 
 footer {
-    background-image: url(./images/map2.jpg);
+    background-image: url("/assets/images/map2.jpg");
     position: scroll;
     bottom: 0;
     padding: 0;
