@@ -127,6 +127,9 @@ footer {
 .hidden{
     display: none;
 }
+.margin{
+    margin-top: 29%;
+}
 
 .bulma-control-mixin {
     @include control;

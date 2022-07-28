@@ -6,6 +6,7 @@ var clearMeal = document.getElementById("clear-meal");
 var drinkBtn = document.getElementById("drink-btn");
 var drinkEl = document.getElementById("drink");
 var clearDrink = document.getElementById("clear-drink");
+var footer= document.getElementById('foot');
 
 //get meal api
 var getRandomMeal = function() {
@@ -213,6 +214,7 @@ var getRandomMeal = function() {
             
             mealEl.innerHTML = html;
             mealEl.classList.remove("hidden");
+            footer.classList.remove("margin");
         })
         .catch(err => console.error(err));
 }
@@ -358,6 +360,7 @@ var getRandomDrink = function() {
 
             drinkEl.innerHTML = html;
             drinkEl.classList.remove("hidden");
+            footer.classList.remove("margin");
         })
         .catch(err => console.error(err));
 }
@@ -365,11 +368,13 @@ var getRandomDrink = function() {
 var resetMeal = function() {
    //mealEl.remove();
    mealEl.classList.add("hidden");
+   footer.classList.add("margin");
 };
 
 var resetDrink = function() {
     //drinkEl.remove();
     drinkEl.classList.add("hidden");
+    footer.classList.add("margin");
 };
 
 drinkBtn.addEventListener("click", getRandomDrink);
